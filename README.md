@@ -4,6 +4,7 @@ MMM-Dynamic-Modules moves modules without need to restart Magic Mirror. Module a
 
 ## Installation
 
+
 ```bash
 cd ~/MagicMirror/modules
 git clone https://github.com/Toreke/MMM-Dynamic-Modules.git
@@ -17,7 +18,8 @@ Config:
 },
 ```
 
-##How to use
+## How to use
+
 
 Module can be used by following way:
 
@@ -48,4 +50,4 @@ And positions according to your config:
 this.sendNotification(CHANGE_POSITIONS_DEFAULTS);
 ```
 
-Order of the modules matter. If there is multiple modules in the same position, first module will be top, second module under it, and so on.
+Order of the modules matters. If there is multiple modules in the same position, first module will be top, second module under it, and so on.
