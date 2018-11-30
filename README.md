@@ -25,7 +25,7 @@ Module can be used by following way:
 
 ```
 this.sendNotification('CHANGE_POSITIONS', 
-	var modules = {
+	modules = {
 		'clock':{
 			visible: 'true',
 			position: 'top_right',
